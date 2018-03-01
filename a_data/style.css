@@ -84,11 +84,9 @@ body {
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
-    font-size: 150%;
+    font-size: 175%;
+    padding-top: 10px;
 }
-
-#head{
-    font-size: 250%;}
 
 .carousel-caption hr{
     width: 50vw;
