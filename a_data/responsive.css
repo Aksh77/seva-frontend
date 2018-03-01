@@ -1,0 +1,21 @@
+/*
+Template Name: Riana Responsive HTML5/CSS3 Charity Template
+Author: iThemesLab
+Author URI: http://themeforest.net/user/ithemeslab
+Description: Riana Responsive HTML5/CSS3 Charity Template.
+Version: 1.0
+*/
+
+/* Table of Content
+--------------------
+1.  Navbar Brand
+
+*/
+
+
+/*1. Navbar Brand*/
+@media screen and (max-width: 768px) {
+	.navbar-brand {
+	    padding: 8px 25px;
+	}
+}
