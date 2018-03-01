@@ -45,47 +45,6 @@
 	<body>
 		<div id="preloader" style="display: none;"></div>
 		<div class="body-inner">
-
-		<!-- top header start -->
-		<div class="top-header hidden-xs">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="social-icon">
-							<ul>
-								<li>
-									<a title="Facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-								</li>
-								<li>
-									<a title="Twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-								</li>
-								<li>
-									<a title="Google plus" href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
-								</li>
-								<li>
-									<a title="YouTube" href="#" target="_blank"><i class="fa fa-youtube"></i></a>
-								</li>
-								<li>
-									<a title="Linkedin" href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-								</li>
-							</ul>
-						</div> <!--/.social-icon-->
-					</div> <!--/.col-->
-					<div class="col-md-6">
-						<div class="top-email pull-right">
-							<a href="mailto:support@seva.com">
-								<i class="fa fa-envelope-o"></i> support@seva.com
-							</a>
-						</div> <!--/.top-email-->
-						<div class="top-phone pull-right">
-							<i class="fa fa-phone"></i> +919234567810
-						</div> <!--/.top-phone-->
-					</div> <!--/.col-->
-				</div> <!--/.row-->
-			</div> <!--/.container-->
-		</div> <!--/.top-header-->
-		<!-- top header end -->
-
 		<header class="header" id="header" role="banner">
 		    <!-- navigation start -->
 		    <div class="navbar">
@@ -109,15 +68,12 @@
 		                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 		                    </li>
 		                    <li class="dropdown">
-		                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+		                        <a href="events.html" class="dropdown-toggle" data-toggle="dropdown">Events</a>
 		                    </li>
-		                    <li class="dropdown">
-		                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events</a>
-		                    </li>
-		                    <li><a href="#">Contact</a></li>
-		                    <li><a href="#">Donate</a></li>
+		                    <li><a href="#contact">Contact</a></li>
+		                    <li><a href="index.html#donate">Donate</a></li>
 		                    <li>
-		                    	<a id="login" href="#" onclick="document.getElementById('id01').style.display='block'" >Login</a>
+		                    	<button class="btn btn-primary" id="login" href="#" onclick="document.getElementById('id01').style.display='block'" style="margin-top: 30px; margin-right: 10%">Login</button>
 								<!-- The Modal -->
 								<div id="id01" class="modal" style="width: 40%; margin: 0 30% 0 30%;">
 									<form class="modal-content animate" action="/login"  >
@@ -146,7 +102,7 @@
 								</div>
 		                    </li>
 		                    <li>
-		                    	<a id="login" href="#" onclick="document.getElementById('id02').style.display='block'" >Register</a>
+		                    	<button class="btn btn-primary" id="login" href="#" onclick="document.getElementById('id02').style.display='block'" style="margin-top: 30px;">Sign Up</button>
 								<!-- The Modal -->
 								<div id="id02" class="modal" style="width: 40%; margin: 0 30% 0 30%;">		<form class="modal-content animate" action="/login"  >
 										<div class="modal-header">
@@ -190,10 +146,10 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="item active">
-							<img class="img-responsive" src="assets/images/volunteer.png" id="car-img">
+							<img class="img-responsive" src="assets/images/volunteers.png" id="car-img">
 							<div class="carousel-caption">
 								<br>
-								<p id="head"><strong>Find Volunteers</strong></p>
+								<p class="lg-text text-center"><strong>Find Volunteers</strong></p>
 							</div>
 						</div>
 						<div class="item">
@@ -204,7 +160,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img class="img-responsive" src="assets/images/sponsor.png" id="car-img">
+							<img class="img-responsive" src="assets/images/sponsors.png" id="car-img">
 							<div class="carousel-caption">
 								<br>
 								<p id="head"><strong>Find Sponsors</strong></p>
@@ -402,8 +358,32 @@ qui officia deserunt</p>
 		</section>
 		<!-- sponsors end -->
 
+		<!-- sponsors start -->
+		<section id="donate" class="clients pad-80">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<h2 class="lg-title text-center"><span>Donate</span></h2>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2">
+							<p class="lg-text text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+							</br>
+						</div>
+					</div>
+					<div class="row">
+						<center><button class="btn btn-lg btn-primary">Donate now</button></center>
+					</div>
+				</div>
+				<div class="row">
+					
+				</div>
+			</div>
+		</section>
+		<!-- sponsors end -->
+
 		<!-- footer start -->
-		<footer>
+		<footer id="contact">
 			<div class="footer-section pad-40">
 				<div class="container">
 					<div class="row">
