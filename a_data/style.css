@@ -63,6 +63,58 @@ body {
     background-repeat: no-repeat;
 }
 
+ display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    font-size: 150%;
+    text-shadow: 2px 2px 3px #000;
+    background-color: rgba(0,0,0,0.3);
+}
+
+#head{
+    font-size: 250%;
+    text-shadow: 3px 3px 5px #000;
+}
+
+.carousel-caption hr{
+    width: 50vw;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        font-size: 100%;
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    #head{
+        font-size: 200%;
+    }
+}
+
+.item .after {
+    background: rgba(0, 0, 0, .6);
+}
+
+#banner{
+    border-bottom: 4px solid #2AABB4;
+}
+
+#car-img{
+    width: 100vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.95;
+}
+
+
 .no-padding {
     padding: 0;
 }
