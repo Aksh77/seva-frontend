@@ -63,35 +63,9 @@ body {
     background-repeat: no-repeat;
 }
 
- display: inline-block;
-    position: absolute;
-    top: 50%;
-    z-index: 5;
-}
-
-.carousel-caption {
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: initial;
-    font-size: 150%;
-    text-shadow: 2px 2px 3px #000;
-    background-color: rgba(0,0,0,0.3);
-}
-
-#head{
-    font-size: 250%;
-    text-shadow: 3px 3px 5px #000;
-}
-
 .modal-header, .modal-footer{
     background-color: #6b6b6b;
     color: #fff;
-}
-
-.item{
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
 }
 
 .carousel-control .fa {
@@ -106,14 +80,10 @@ body {
     transform: translateY(-50%);
     bottom: initial;
     font-size: 150%;
-    text-shadow: 2px 2px 3px #000;
-    background-color: rgba(0,0,0,0.3);
 }
 
 #head{
-    font-size: 250%;
-    text-shadow: 3px 3px 5px #000;
-}
+    font-size: 250%;}
 
 .carousel-caption hr{
     width: 50vw;
@@ -122,16 +92,11 @@ body {
 @media screen and (max-width: 768px) {
     .carousel-caption {
         font-size: 100%;
-        background-color: rgba(0,0,0,0.2);
     }
 
     #head{
         font-size: 200%;
     }
-}
-
-.item .after {
-    background: rgba(0, 0, 0, .6);
 }
 
 #banner{
