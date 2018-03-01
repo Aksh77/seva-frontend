@@ -42,6 +42,24 @@
 	    <![endif]-->
 
 	<style type="text/css">.fancybox-margin{margin-right:10px;}</style></head>
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '417481308708528',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.12'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 	<body>
 		<div id="preloader" style="display: none;"></div>
 		<div class="body-inner">
@@ -188,8 +206,8 @@
 						</div>
 						<div class="item">
 							<img class="img-responsive" src="assets/images/org.png" id="car-img">
-							<div class="carousel-caption">		
-							<br>						
+							<div class="carousel-caption">
+							<br>
 							<p id="head"><strong>Find Organizations</strong></p>
 							</div>
 						</div>
@@ -386,7 +404,7 @@ qui officia deserunt</p>
 					</div>
 				</div>
 				<div class="row">
-					
+
 				</div>
 			</div>
 		</section>
@@ -406,12 +424,12 @@ qui officia deserunt</p>
 									<li><i class="fa fa-phone"></i>+919234567810</li>
 								</ul>
 							</div>
-						</div> 
+						</div>
 						<div class="col-md-6">
 							<h2 class="ft-title"><span>Join our Networks</span></h2>
 							<div class="footer-widget-1 address row">
 								<div class="col-md-6">
-									<ul>									
+									<ul>
 										<li>
 											<a title="Facebook" href="#" target="_blank"><i class="fa fa-facebook"></i>Facebook</a>
 										</li>
@@ -424,7 +442,7 @@ qui officia deserunt</p>
 									</ul>
 								</div>
 								<div class="col-md-6">
-									<ul>	
+									<ul>
 										<li>
 											<a title="YouTube" href="#" target="_blank"><i class="fa fa-youtube"></i>Youtube</a>
 										</li>
@@ -434,7 +452,7 @@ qui officia deserunt</p>
 									</ul>
 								</div>
 							</div>
-						</div> 
+						</div>
 					</div>
 				</div>
 			</div>
