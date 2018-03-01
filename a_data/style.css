@@ -83,6 +83,11 @@ body {
     text-shadow: 3px 3px 5px #000;
 }
 
+.modal-header, .modal-footer{
+    background-color: #6b6b6b;
+    color: #fff;
+}
+
 .item{
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -2091,7 +2096,7 @@ label {
 }
 
 label > b {
-    color: #ff0000;
+    color: #6b6b6b;
     font-size: 18px;
 }
 
