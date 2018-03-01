@@ -111,12 +111,37 @@
 		                    <li class="dropdown">
 		                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
 		                    </li>
+		                    <li class="dropdown">
+		                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events</a>
+		                    </li>
 		                    <li><a href="contact.html">Contact</a></li>
 		                    <li><a href="donate.html">Donate</a></li>
 		                    <li>
-		                    	<button id="login" onclick="document.getElementById('id01').style.display='block'" >Login</button>
+		                    	<a id="login" href="#" onclick="document.getElementById('id01').style.display='block'" >Login</a>
 								<!-- The Modal -->
 								<div id="id01" class="modal">
+									<form class="modal-content animate" action="/login"  >
+										<div class="modal-header">
+											<p class="pull-left" style="font-size: 30px; color: #000;">SEVA</p>
+								          <p class="pull-right" data-dismiss="modal"><a id="close" href="">X</a></p>
+								          </br>
+								        </div>
+										<div class="container">
+											</br>
+											<button class="btn btn-block" type="submit" style="background-color: #004d99; border-color: #004d99; color: #fff"><strong>Volunteer</strong></button><br>
+											<button class="btn btn-block" type="submit" style="background-color: #009933; border-color: #009933; color: #fff"><strong>Organization</strong></button></br>
+											<button class="btn btn-block" type="submit" style="background-color:  #e68a00; border-color: #e68a00; color: #fff"><strong>Sponsor</strong></button></br>
+										</div>
+										<div class="modal-footer">
+							              <label class="pull-left"><input type="checkbox" checked="checked">Remember selection</label>
+							          </div>
+									</form>
+								</div>
+		                    </li>
+		                    <li>
+		                    	<a id="login" href="#" onclick="document.getElementById('id02').style.display='block'" >Register</a>
+								<!-- The Modal -->
+								<div id="id02" class="modal">
 									<form class="modal-content animate" action="/login"  >
 										<div class="modal-header">
 											<p class="pull-left" style="font-size: 30px; color: #000;">SEVA</p>
@@ -304,7 +329,7 @@ praesidium Palati, nihil urbis vigiliae.</p>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
-						<h2 class="lg-title text-center"><span>Upcomming event</span></h2>
+						<h2 class="lg-title text-center"><span>Upcoming event</span></h2>
 					</div> <!--/.col-->
 					<div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2">
 						<p class="lg-text text-center">Duis aute irure dolor in
@@ -329,7 +354,7 @@ qui officia deserunt</p>
 						<div class="countdown-wrapper">
                             <ul id="countdown">
                                 <li>
-                                    <span class="days">669</span>
+                                    <span class="days">15</span>
                                     <p>days</p>
                                 </li>
                                 <li>
@@ -464,7 +489,6 @@ qui officia deserunt</p>
         <script type="text/javascript" src="a_data/morphext.js"></script>
 		<!-- jQuery SmoothScroll -->
         <script type="text/javascript" src="a_data/SmoothScroll.js"></script>
-
 		<!-- Template custom -->
 		<script type="text/javascript" src="a_data/script.js"></script>
 		</div>
