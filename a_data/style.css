@@ -108,10 +108,6 @@ body {
     transition: all 0.3s;
 }
 
-.btn-primary:hover {
-    background: #f51f2c;
-    border-color: #f51f2c;
-}
 /* 2. Typography
 ------------------------------------------------------------------------------------- */
 

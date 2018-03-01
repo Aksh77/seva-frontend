@@ -113,6 +113,28 @@
 		                    </li>
 		                    <li><a href="contact.html">Contact</a></li>
 		                    <li><a href="donate.html">Donate</a></li>
+		                    <li>
+		                    	<button id="login" onclick="document.getElementById('id01').style.display='block'" >Login</button>
+								<!-- The Modal -->
+								<div id="id01" class="modal">
+									<form class="modal-content animate" action="/login"  >
+										<div class="modal-header"> 
+											<p class="pull-left" style="font-size: 30px; color: #000;">SEVA</p>        
+								          <p class="pull-right" data-dismiss="modal"><a id="close" href="">X</a></p>
+								          </br>
+								        </div>
+										<div class="container">
+											</br>
+											<button class="btn btn-block" type="submit" style="background-color: #004d99; border-color: #004d99; color: #fff"><strong>Volunteer</strong></button><br>
+											<button class="btn btn-block" type="submit" style="background-color: #009933; border-color: #009933; color: #fff"><strong>Organization</strong></button></br>
+											<button class="btn btn-block" type="submit" style="background-color:  #e68a00; border-color: #e68a00; color: #fff"><strong>Sponsor</strong></button></br>
+										</div>
+										<div class="modal-footer">
+							              <label class="pull-left"><input type="checkbox" checked="checked">Remember selection</label>
+							          </div>
+									</form>
+								</div>
+		                    </li>
 		                </ul>
 		            </nav>
 		            <!-- /.navbar-collapse -->
